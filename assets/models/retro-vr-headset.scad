@@ -4,5 +4,5 @@
 // $t rotates around Y while the visor faces toward +Z.
 rotate([0, 360*$t+45, 0])
   scale(3.4)
-    translate([0.00009049, -0.00109623, 0.00353585])
+    translate([0.00007637, -0.00083683, 0.00326583])
       import("vr-headset-wireframe.stl", convexity=10);

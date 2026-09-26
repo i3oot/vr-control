@@ -4,5 +4,5 @@
 rotate([0, 360*$t+90, 0])
   rotate([-90, 0, 0])
   scale(3.4)
-    translate([0.00001599, -0.00000615, -0.00002426])
+    translate([-0.00017220, 0.00025868, -0.00010141])
       import("quest3-controller-right-wireframe.stl", convexity=10);

@@ -12,7 +12,7 @@ from vtkmodules.vtkIOGeometry import vtkSTLReader, vtkSTLWriter
 
 ROOT = Path(__file__).resolve().parents[1]
 MODELS = ROOT / "assets/models"
-TARGET_REDUCTION = 0.75
+TARGET_REDUCTION = 0.95
 SOURCES = (
     "vr-headset.stl",
     "quest3-controller-left.stl",
