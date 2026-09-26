@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Omarchy VR Control · UX state mockups</title>
+  <style>
+    :root { color-scheme: dark; --bg:#080511; --panel:#0d0a19; --surface:#141022; --line:#38264e; --text:#f5edff; --muted:#a497b5; --accent:#ff54d8; --cyan:#73eaff; --warn:#ffd27a; --good:#73eaff; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; padding:22px; background:var(--bg); color:var(--text); font:14px/1.45 Inter,"Segoe UI",sans-serif; }
+    .panel { width:440px; margin:auto; padding:20px; background:linear-gradient(140deg,#110c20,var(--panel)); border:1px solid #ff54d833; border-radius:18px; box-shadow:0 22px 70px #0009; }
+    header { display:flex; align-items:center; gap:12px; padding-bottom:14px; border-bottom:1px solid #ffffff17; }
+    .brand { flex:1; min-width:0; }
+    .brand b { font-size:18px; letter-spacing:.1px; }
+    .brand div { color:var(--muted); font-size:12px; }
+    .top-button { width:34px; height:34px; display:grid; place-items:center; border:1px solid #ff54d833; border-radius:10px; background:#ff54d80a; font-size:16px; }
+    .eyebrow { margin:17px 0 9px; color:var(--muted); font-size:11px; font-weight:700; letter-spacing:1.15px; }
+    .step { display:flex; align-items:center; gap:10px; margin:18px 0 9px; }
+    .stepnum { width:26px; height:26px; flex:none; display:grid; place-items:center; border:1px solid #ffffff2c; border-radius:50%; color:var(--text); font-size:12px; font-weight:700; }
+    .step.done .stepnum { border-color:var(--accent); color:var(--accent); background:#ff54d824; }
+    .step h2 { margin:0; font-size:15px; line-height:1.2; }
+    .step small { color:var(--muted); display:block; margin-top:3px; }
+    .step.done small { color:var(--accent); }
+    .stage-nav { display:flex; align-items:center; justify-content:space-between; margin:6px 0 13px; padding:4px 2px 10px; border-bottom:1px solid #ffffff1b; color:var(--muted); font-size:10px; font-weight:700; letter-spacing:.8px; }
+    .stage-nav button { min-width:76px; padding:7px 9px; border:1px solid #ffffff18; border-radius:8px; background:#ffffff08; color:var(--text); font-size:10px; font-weight:600; }
+    .stage-nav strong { color:var(--accent); }
+    .card { margin:9px 0; padding:13px 14px; background:linear-gradient(130deg,#ff54d80a,#141022 45%,#73eaff08); border:1px solid #ff54d82c; border-radius:13px; }
+    .cardhead { display:flex; gap:11px; align-items:flex-start; }
+    .icon { color:var(--accent); font-size:18px; line-height:1.1; width:20px; flex:none; }
+    .copy { min-width:0; flex:1; }
+    .copy b { display:block; font-size:14px; }
+    .copy p { margin:4px 0 0; color:var(--muted); font-size:12px; }
+    .dot { width:8px; height:8px; margin-top:5px; flex:none; border-radius:50%; background:var(--muted); }
+    .dot.good { background:var(--good); box-shadow:0 0 12px #73eaff66; }
+    .dot.warn { background:var(--warn); }
+    .rows { display:grid; gap:6px; margin-top:11px; color:var(--muted); font-size:12px; }
+    .rows span { display:flex; justify-content:space-between; gap:10px; }
+    .rows strong { color:var(--text); font-weight:500; }
+    .buttons { display:flex; flex-wrap:wrap; gap:7px; margin-top:11px; }
+    .button { padding:8px 11px; border-radius:9px; background:#ffffff0c; border:1px solid #ffffff16; color:var(--text); font-size:11px; font-weight:600; }
+    .button.primary { background:#ff54d824; border-color:#ff54d880; color:var(--accent); }
+    .button.danger { color:#ffb0ad; }
+    .pin { margin:11px 0 2px; padding:14px; text-align:center; border:1px solid #73eaff62; border-radius:13px; background:#ff54d812; }
+    .pin small { display:block; color:var(--muted); font-size:10px; font-weight:700; letter-spacing:1px; }
+    .pin strong { display:block; margin-top:3px; color:var(--accent); font:700 31px/1.2 ui-monospace,monospace; letter-spacing:5px; }
+    .art { display:flex; align-items:center; justify-content:space-around; gap:8px; margin-top:9px; padding:6px; border:1px solid #73eaff52; border-radius:12px; background:#73eaff0a; }
+    .art img { width:92px; height:68px; object-fit:contain; filter:brightness(0) saturate(100%) invert(87%) sepia(54%) saturate(687%) hue-rotate(155deg) brightness(104%) contrast(101%); }
+    .battery { margin-top:9px; padding:10px; border-radius:9px; color:var(--muted); background:#ffffff06; font-size:11px; }
+    .preview { position:fixed; z-index:2; top:9px; left:50%; transform:translateX(-50%); padding:4px 9px; border:1px solid #ff54d833; border-radius:20px; background:#141022; color:#a497b5; font-size:10px; letter-spacing:.5px; }
+    .about-list { display:grid; gap:8px; margin-top:8px; color:var(--muted); font-size:12px; }
+    .about-list div { display:flex; justify-content:space-between; gap:12px; border-bottom:1px solid #ffffff0d; padding-bottom:6px; }
+    .about-list strong { color:var(--text); font-weight:500; }
+    .about-list em { color:var(--accent); font-style:normal; }
+  </style>
+</head>
+<body>
+  <div class="preview">UX MOCKUP · NOT LIVE SYSTEM STATUS</div>
+  <main class="panel" id="panel"></main>
+  <script>
+    const base = `
+      <header><div class="brand"><b>VR Control</b><div>WiVRn streaming · WayVR desktop</div></div><div class="top-button" title="About">i</div><div class="top-button" title="Refresh">↻</div></header>`;
+    const step = (n, title, state, done=false) => `<div class="step ${done?'done':''}"><div class="stepnum">${n}</div><div><h2>${title}</h2><small>${state}</small></div></div>`;
+    const nav = (n, live=n) => `<div class="stage-nav"><button>‹ Back</button><span>${n===live?`<strong>STEP ${n} OF 3</strong>`:`BROWSING · LIVE STEP ${live}`}</span><button>Next ›</button></div>`;
+    const card = (icon,title,detail,state='warn',body='') => `<section class="card"><div class="cardhead"><div class="icon">${icon}</div><div class="copy"><b>${title}</b><p>${detail}</p></div><div class="dot ${state}"></div></div>${body}</section>`;
+    const button = (text,klass='') => `<span class="button ${klass}">${text}</span>`;
+    const installRows = `<div class="rows"><span>WiVRn server <strong>Missing</strong></span><span>WayVR overlay <strong>Missing</strong></span><span>XRizer <strong>Missing</strong></span><span>Avahi discovery <strong>Not running</strong></span></div><div class="buttons">${button('Install & configure VR stack','primary')}</div>`;
+    const readyRows = `<div class="rows"><span>WayVR overlay <strong>Installed</strong></span><span>XRizer <strong>Installed</strong></span><span>Avahi discovery <strong>Running</strong></span></div>`;
+    const pcReady = (firewall) => `${base}<div class="eyebrow">GUIDED SETUP</div>${step(1,'Prepare this PC','Start WiVRn server')}${nav(1)}${card('◉','WiVRn server','Installed · ready to start','warn',`<div class="buttons">${button('Start server','primary')}${button('Dashboard')}${button('Enable autostart')}</div>`)}${card('⌘','Components & discovery','WayVR, XRizer, Avahi are ready','good',readyRows)}${card('⛨','WiVRn firewall',firewall==='open'?'Open · private LAN only · UDP 5353, TCP/UDP 9757':'No plugin rules · existing rules may still allow traffic',firewall==='open'?'good':'warn',`<div class="buttons">${button('Open WiVRn ports','primary')}${button('Close plugin rules','danger')}</div>`)}`;
+    const screens = {
+      missing: `${base}<div class="eyebrow">GUIDED SETUP</div>${step(1,'Prepare this PC','Needs attention')}${nav(1)}${card('◉','WiVRn server','Not installed','warn',installRows)}${card('⌘','Components & discovery','Some components need setup','warn',`<div class="rows"><span>WayVR <strong>Missing</strong></span><span>XRizer <strong>Missing</strong></span><span>Avahi <strong>Not running</strong></span></div>`)}${card('⛨','WiVRn firewall','UFW is not active · controls unavailable','',`<div class="buttons">${button('Unavailable')}</div>`)}`,
+      closed: pcReady('closed'),
+      open: pcReady('open'),
+      pairing: `${base}<div class="eyebrow">GUIDED SETUP</div>${step(2,'Connect the headset','Pairing enabled · temporary code')}${nav(2)}${card('◉','Pair your headset','Open WiVRn on the headset and enter this code','warn',`<div class="buttons">${button('Get pairing code','primary')}${button('Install app ↗')}</div><div class="pin"><small>PAIRING CODE · MOCKUP ONLY</small><strong>482 913</strong></div>`)}`,
+      connected: `${base}<div class="eyebrow">GUIDED SETUP</div>${step(3,'Start the VR desktop','Ready')}${nav(3)}${card('◉','Headset connected','Quest 3','good',`<div class="art"><img src="../assets/icons/headset-turntable.gif"><img src="../assets/icons/controller-left-turntable.gif"><img src="../assets/icons/controller-right-turntable.gif"></div>`)}${card('▣','WayVR desktop','Installed · ready to launch','warn',`<div class="buttons">${button('Launch WayVR','primary')}</div>`)}`,
+      manual: `${base}<div class="eyebrow">GUIDED SETUP</div>${step(1,'Prepare this PC','Browsing an earlier step')}${nav(1,3)}${card('◉','WiVRn server','Running · headset connected','good',`<div class="buttons">${button('Dashboard')}${button('Disable autostart')}</div>`)}${card('⌘','Components & discovery','All required components are ready','good',readyRows)}${card('⛨','WiVRn firewall','LAN rules configured','good',`<div class="buttons">${button('Open ports')}${button('Close plugin rules','danger')}</div>`)}<div class="buttons">${button('Return to current step · 3','primary')}</div>`,
+      about: `${base}<div class="eyebrow">ABOUT VR CONTROL</div>${card('♙','Maintainer','i3oot · Omarchy VR Control · MIT','good')}${card('▦','Required VR stack','Dependencies and licenses', 'good', `<div class="about-list"><div><strong>WiVRn server + dashboard</strong><em>GPL-3.0-or-later</em></div><div><strong>WayVR</strong><em>GPL-3.0-or-later</em></div><div><strong>XRizer</strong><em>GPL-3.0-or-later</em></div><div><strong>Avahi</strong><em>LGPL-2.1-or-later</em></div></div>`)}${card('◇','Bundled artwork','Quest 3 wireframes · icon attribution · full license notes','good',`<div class="buttons">${button('Open source & license notes ↗','primary')}</div>`)}`
+    };
+    const selected = new URLSearchParams(location.search).get('state') || 'missing';
+    document.getElementById('panel').innerHTML = screens[selected] || screens.missing;
+  </script>
+</body>
+</html>

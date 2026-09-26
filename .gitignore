@@ -1,0 +1,50 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.p8
+*.jks
+*.kdbx
+*.token
+*.secret
+*.credentials
+credentials/
+secrets/
+.ssh/
+.aws/
+.netrc
+.npmrc
+.pypirc
+.git-credentials
+
+# Local state, logs, and editor/OS files
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python and JavaScript development artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+coverage/
+htmlcov/
+dist/
+build/
+target/
+
+# Generated debug previews are reproducible. README screenshots live in /screenshots.
+/debug/mockups/*.png

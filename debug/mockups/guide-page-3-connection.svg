@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="508" viewBox="0 0 420 508">
+<rect x="1" y="1" width="418" height="506" rx="13" fill="#0b0c16" stroke="#6dd185" stroke-width="2"/>
+<text x="20" y="31" fill="#e4e8ed" font-family="monospace" font-size="16" font-weight="700" text-anchor="start" letter-spacing="0">VR Control</text>
+<text x="20" y="51" fill="#91a4bb" font-family="monospace" font-size="11" font-weight="450" text-anchor="start" letter-spacing="0.3">Headset connected</text>
+<text x="400" y="33" fill="#e4e8ed" font-family="monospace" font-size="17" font-weight="600" text-anchor="end" letter-spacing="0">≡</text>
+<path d="M12 65H408" fill="none" stroke="#6dd185" stroke-width="1.5"/>
+<rect x="12" y="80" width="55" height="34" rx="10" fill="#10131b" stroke="#272f3b" stroke-width="1"/>
+<text x="39.5" y="101.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">‹ Back</text>
+<rect x="353" y="80" width="55" height="34" rx="10" fill="#10131b" stroke="#272f3b" stroke-width="1"/>
+<text x="380.5" y="101.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">Next ›</text>
+<rect x="12.0" y="121" width="128.0" height="3" rx="2" fill="#6dd185" stroke="#6dd185" stroke-width="1"/>
+<rect x="146.0" y="121" width="128.0" height="3" rx="2" fill="#6dd185" stroke="#6dd185" stroke-width="1"/>
+<rect x="280.0" y="121" width="128.0" height="3" rx="2" fill="#e4e8ed" stroke="#e4e8ed" stroke-width="1"/>
+<rect x="14" y="140" width="392" height="110" rx="14" fill="#121922" stroke="#42684d" stroke-width="1"/>
+<rect x="78" y="148" width="62" height="94" rx="13" fill="#15231d" stroke="#42684d" stroke-width="1"/>
+<rect x="148" y="148" width="124" height="94" rx="14" fill="#15231d" stroke="#42684d" stroke-width="1"/>
+<rect x="280" y="148" width="62" height="94" rx="13" fill="#15231d" stroke="#42684d" stroke-width="1"/>
+<image href="mock-left-controller.png" x="97" y="176" width="24" height="44" preserveAspectRatio="xMidYMid meet"/>
+<image href="mock-headset.png" x="164" y="151" width="93" height="77" preserveAspectRatio="xMidYMid meet"/>
+<image href="mock-right-controller.png" x="299" y="176" width="24" height="44" preserveAspectRatio="xMidYMid meet"/>
+<text x="109" y="236" fill="#e4e8ed" font-family="monospace" font-size="10" font-weight="650" text-anchor="middle" letter-spacing="0">L</text>
+<text x="311" y="236" fill="#e4e8ed" font-family="monospace" font-size="10" font-weight="650" text-anchor="middle" letter-spacing="0">R</text>
+<text x="210.0" y="270" fill="#91a4bb" font-family="monospace" font-size="9" font-weight="400" text-anchor="middle" letter-spacing="0">Connected to Meta Quest 3</text>
+<rect x="14" y="286" width="392" height="205" rx="13" fill="#11151e" stroke="#29343e" stroke-width="1"/>
+<text x="28" y="310" fill="#e4e8ed" font-family="monospace" font-size="12" font-weight="700" text-anchor="start" letter-spacing="0">VR displays</text>
+<text x="28" y="326" fill="#91a4bb" font-family="monospace" font-size="9" font-weight="400" text-anchor="start" letter-spacing="0">Add virtual screens and route workspaces.</text>
+<text x="28" y="357" fill="#e4e8ed" font-family="monospace" font-size="10" font-weight="500" text-anchor="start" letter-spacing="0">Virtual screens · 1 / 4</text>
+<rect x="347" y="337" width="27" height="30" rx="10" fill="#10131b" stroke="#272f3b" stroke-width="1"/>
+<text x="360.5" y="356.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">−</text>
+<rect x="378" y="337" width="27" height="30" rx="10" fill="#17221f" stroke="#73b981" stroke-width="1"/>
+<text x="391.5" y="356.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">+</text>
+<path d="M26 377H394" fill="none" stroke="#29333c" stroke-width="1"/>
+<text x="28" y="401" fill="#91a4bb" font-family="monospace" font-size="10" font-weight="400" text-anchor="start" letter-spacing="0">eDP-1 · WS 1</text>
+<rect x="309" y="385" width="92" height="30" rx="10" fill="#10131b" stroke="#272f3b" stroke-width="1"/>
+<text x="355.0" y="404.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">Move here</text>
+<path d="M26 417H394" fill="none" stroke="#29333c" stroke-width="1"/>
+<text x="28" y="443" fill="#91a4bb" font-family="monospace" font-size="10" font-weight="400" text-anchor="start" letter-spacing="0">VR-SCREEN-1 · WS 3</text>
+<rect x="278" y="427" width="92" height="30" rx="10" fill="#10131b" stroke="#272f3b" stroke-width="1"/>
+<text x="324.0" y="446.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">Move here</text>
+<rect x="374" y="427" width="27" height="30" rx="10" fill="#10131b" stroke="#272f3b" stroke-width="1"/>
+<text x="387.5" y="446.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">×</text>
+</svg>

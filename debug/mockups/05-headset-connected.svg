@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="610" viewBox="0 0 500 610">
+<defs><linearGradient id="panelFill" x1="0" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#100c20"/><stop offset="1" stop-color="#0b0917"/></linearGradient><linearGradient id="cardFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#171027"/><stop offset="1" stop-color="#110e20"/></linearGradient><linearGradient id="neonLine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff54d8"/><stop offset="1" stop-color="#73eaff"/></linearGradient></defs>
+<rect x="0" y="0" width="500" height="610" rx="0" fill="#080511" stroke="#080511" stroke-width="1"/>
+<text x="26" y="23" fill="#a497b5" font-family="Inter, sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">UX STATE MOCKUP  /  HEADSET CONNECTED</text>
+<rect x="16" y="39" width="468" height="555" rx="18" fill="url(#panelFill)" stroke="#49325c" stroke-width="1"/>
+<text x="37" y="77" fill="#f5edff" font-family="Inter, sans-serif" font-size="19" font-weight="700" letter-spacing="0">VR Control</text>
+<text x="37" y="98" fill="#a497b5" font-family="Inter, sans-serif" font-size="11" font-weight="400" letter-spacing="0">WiVRn streaming · WayVR desktop</text>
+<rect x="399" y="55" width="32" height="32" rx="9" fill="#ffffff0a" stroke="#ffffff25" stroke-width="1"/>
+<text x="415" text-anchor="middle" y="76" fill="#f5edff" font-family="Inter, sans-serif" font-size="17" font-weight="500" letter-spacing="0">i</text>
+<rect x="439" y="55" width="32" height="32" rx="9" fill="#ffffff0a" stroke="#ffffff25" stroke-width="1"/>
+<text x="455" text-anchor="middle" y="76" fill="#f5edff" font-family="Inter, sans-serif" font-size="16" font-weight="500" letter-spacing="0">↻</text>
+<rect x="37" y="116" width="426" height="2" rx="1" fill="url(#neonLine)" stroke="url(#neonLine)" stroke-width="1"/>
+<text x="37" y="145" fill="#a497b5" font-family="Inter, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">GUIDED SETUP</text>
+<rect x="28" y="161" width="27" height="27" rx="14" fill="#ff54d80a" stroke="#ff54d85e" stroke-width="1"/>
+<text x="41.5" y="179" fill="#f5edff" font-family="Inter, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="0">3</text>
+<text x="65" y="175" fill="#f5edff" font-family="Inter, sans-serif" font-size="14" font-weight="700" letter-spacing="0">Start the VR desktop</text>
+<text x="65" y="191" fill="#a497b5" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="0">Ready</text>
+<rect x="42" y="198" width="88" height="32" rx="9" fill="#ff54d80b" stroke="#ff54d82a" stroke-width="1"/>
+<text x="86.0" text-anchor="middle" y="219" fill="#f5edff" font-family="Inter, sans-serif" font-size="11" font-weight="600" letter-spacing="0">‹ Back</text>
+<text x="250" text-anchor="middle" y="218" fill="#a497b5" font-family="Inter, sans-serif" font-size="9" font-weight="700" letter-spacing="0.8">STEP 3 OF 3</text>
+<rect x="370" y="198" width="88" height="32" rx="9" fill="#ff54d80b" stroke="#ff54d82a" stroke-width="1"/>
+<text x="414.0" text-anchor="middle" y="219" fill="#f5edff" font-family="Inter, sans-serif" font-size="11" font-weight="600" letter-spacing="0">Next ›</text>
+<rect x="42" y="235" width="416" height="2" rx="1" fill="#ffffff18" stroke="#ffffff18" stroke-width="1"/>
+<rect x="319.3333333333333" y="234" width="135.66666666666666" height="4" rx="2" fill="#ff54d8" stroke="#ff54d8" stroke-width="1"/>
+<rect x="26" y="245" width="448" height="177" rx="13" fill="url(#cardFill)" stroke="#ff54d82c" stroke-width="1"/>
+<rect x="27" y="259" width="2" height="149" rx="1" fill="url(#neonLine)" stroke="url(#neonLine)" stroke-width="1"/>
+<text x="42" y="272" fill="#ff54d8" font-family="Inter, sans-serif" font-size="19" font-weight="600" letter-spacing="0">◉</text>
+<text x="73" y="270" fill="#f5edff" font-family="Inter, sans-serif" font-size="14" font-weight="650" letter-spacing="0">Headset connected</text>
+<rect x="453" y="263" width="8" height="8" rx="4" fill="#73eaff" stroke="#73eaff" stroke-width="1"/>
+<text x="73" y="290" fill="#a497b5" font-family="Inter, sans-serif" font-size="11" font-weight="400" letter-spacing="0">Quest 3</text>
+<rect x="74" y="309" width="384" height="65" rx="10" fill="#73eaff0a" stroke="#73eaff52" stroke-width="1"/>
+<image href="headset-turntable.png" x="97" y="313" width="86" height="56" preserveAspectRatio="xMidYMid meet" opacity="0.88"/>
+<image href="controller-left-turntable.png" x="201" y="313" width="86" height="56" preserveAspectRatio="xMidYMid meet" opacity="0.88"/>
+<image href="controller-right-turntable.png" x="305" y="313" width="86" height="56" preserveAspectRatio="xMidYMid meet" opacity="0.88"/>
+<rect x="26" y="440" width="448" height="101" rx="13" fill="url(#cardFill)" stroke="#ff54d82c" stroke-width="1"/>
+<rect x="27" y="454" width="2" height="73" rx="1" fill="url(#neonLine)" stroke="url(#neonLine)" stroke-width="1"/>
+<text x="42" y="467" fill="#ff54d8" font-family="Inter, sans-serif" font-size="19" font-weight="600" letter-spacing="0">▣</text>
+<text x="73" y="465" fill="#f5edff" font-family="Inter, sans-serif" font-size="14" font-weight="650" letter-spacing="0">WayVR desktop</text>
+<rect x="453" y="458" width="8" height="8" rx="4" fill="#ffd27a" stroke="#ffd27a" stroke-width="1"/>
+<text x="73" y="485" fill="#a497b5" font-family="Inter, sans-serif" font-size="11" font-weight="400" letter-spacing="0">Installed · ready to launch</text>
+<rect x="73" y="506" width="112" height="32" rx="9" fill="#ff54d824" stroke="#ff54d880" stroke-width="1"/>
+<text x="129.0" text-anchor="middle" y="527" fill="#ff54d8" font-family="Inter, sans-serif" font-size="11" font-weight="600" letter-spacing="0">Launch WayVR</text>
+</svg>

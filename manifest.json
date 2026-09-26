@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "i3oot.vr",
+  "name": "VR Control",
+  "version": "0.2.0",
+  "author": "i3oot",
+  "license": "MIT",
+  "description": "Manage Omarchy workspaces in VR with WiVRn and WayVR; focused on desktop use rather than VR gaming.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "VR Control",
+    "description": "Bring Omarchy workspaces and apps into VR with WiVRn and WayVR.",
+    "category": "System",
+    "aliases": ["vr", "wivrn", "wayvr", "headset"],
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}

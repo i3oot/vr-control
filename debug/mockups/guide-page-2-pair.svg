@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="354" viewBox="0 0 420 354">
+<rect x="1" y="1" width="418" height="352" rx="13" fill="#0b0c16" stroke="#6dd185" stroke-width="2"/>
+<text x="20" y="31" fill="#e4e8ed" font-family="monospace" font-size="16" font-weight="700" text-anchor="start" letter-spacing="0">VR Control</text>
+<text x="20" y="51" fill="#91a4bb" font-family="monospace" font-size="11" font-weight="450" text-anchor="start" letter-spacing="0.3">Connect the headset</text>
+<text x="400" y="33" fill="#e4e8ed" font-family="monospace" font-size="17" font-weight="600" text-anchor="end" letter-spacing="0">≡</text>
+<path d="M12 65H408" fill="none" stroke="#6dd185" stroke-width="1.5"/>
+<rect x="12" y="80" width="55" height="34" rx="10" fill="#10131b" stroke="#272f3b" stroke-width="1"/>
+<text x="39.5" y="101.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">‹ Back</text>
+<rect x="353" y="80" width="55" height="34" rx="10" fill="#10131b" stroke="#272f3b" stroke-width="1"/>
+<text x="380.5" y="101.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">Next ›</text>
+<rect x="12.0" y="121" width="128.0" height="3" rx="2" fill="#6dd185" stroke="#6dd185" stroke-width="1"/>
+<rect x="146.0" y="121" width="128.0" height="3" rx="2" fill="#e4e8ed" stroke="#e4e8ed" stroke-width="1"/>
+<rect x="280.0" y="121" width="128.0" height="3" rx="2" fill="#30343d" stroke="#30343d" stroke-width="1"/>
+<text x="20" y="156" fill="#e4e8ed" font-family="monospace" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0">Pair your headset</text>
+<text x="20" y="178" fill="#91a4bb" font-family="monospace" font-size="10" font-weight="400" text-anchor="start" letter-spacing="0">Open WiVRn on the headset and enter the temporary</text>
+<text x="20" y="194" fill="#91a4bb" font-family="monospace" font-size="10" font-weight="400" text-anchor="start" letter-spacing="0">pairing code.</text>
+<rect x="14" y="207" width="392" height="79" rx="12" fill="#13221d" stroke="#42684d" stroke-width="1"/>
+<text x="210.0" y="230" fill="#91a4bb" font-family="monospace" font-size="10" font-weight="650" text-anchor="middle" letter-spacing="0.8">PAIRING CODE · ENTER IN THE HEADSET</text>
+<rect x="375" y="211" width="28" height="28" rx="8" fill="#17221f" stroke="#42684d" stroke-width="1"/>
+<path d="M17.65 6.35A7.95 7.95 0 0 0 12 4a8 8 0 1 0 7.93 9h-2.02A6 6 0 1 1 12 6c1.66 0 3.14.69 4.22 1.78L13 11h7V4z" transform="translate(379 215)" fill="#e4e8ed"/>
+<text x="210.0" y="269" fill="#6dd185" font-family="monospace" font-size="25" font-weight="700" text-anchor="middle" letter-spacing="3">133742</text>
+<rect x="14" y="300" width="392" height="36" rx="10" fill="#17221f" stroke="#73b981" stroke-width="1"/>
+<text x="210.0" y="322.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">Install app on headset</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="355" viewBox="0 0 420 355">
+<rect x="1" y="1" width="418" height="353" rx="13" fill="#0b0c16" stroke="#6dd185" stroke-width="2"/>
+<text x="20" y="31" fill="#e4e8ed" font-family="monospace" font-size="16" font-weight="700" text-anchor="start" letter-spacing="0">VR Control</text>
+<text x="20" y="51" fill="#91a4bb" font-family="monospace" font-size="11" font-weight="450" text-anchor="start" letter-spacing="0.3">Prepare this PC</text>
+<text x="400" y="33" fill="#e4e8ed" font-family="monospace" font-size="17" font-weight="600" text-anchor="end" letter-spacing="0">≡</text>
+<path d="M12 65H408" fill="none" stroke="#6dd185" stroke-width="1.5"/>
+<rect x="12" y="80" width="55" height="34" rx="10" fill="#10131b" stroke="#272f3b" stroke-width="1"/>
+<text x="39.5" y="101.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">‹ Back</text>
+<rect x="353" y="80" width="55" height="34" rx="10" fill="#10131b" stroke="#272f3b" stroke-width="1"/>
+<text x="380.5" y="101.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">Next ›</text>
+<rect x="12.0" y="121" width="128.0" height="3" rx="2" fill="#e4e8ed" stroke="#e4e8ed" stroke-width="1"/>
+<rect x="146.0" y="121" width="128.0" height="3" rx="2" fill="#30343d" stroke="#30343d" stroke-width="1"/>
+<rect x="280.0" y="121" width="128.0" height="3" rx="2" fill="#30343d" stroke="#30343d" stroke-width="1"/>
+<text x="24" y="165" fill="#e4e8ed" font-family="monospace" font-size="13" font-weight="650" text-anchor="start" letter-spacing="0">WiVRn</text>
+<text x="381" y="165" fill="#6dd185" font-family="monospace" font-size="10" font-weight="700" text-anchor="end" letter-spacing="0.3">READY</text>
+<text x="400" y="165" fill="#91a4bb" font-family="monospace" font-size="13" font-weight="400" text-anchor="end" letter-spacing="0">+</text>
+<path d="M16 185H404" fill="none" stroke="#29333c" stroke-width="1"/>
+<text x="24" y="216" fill="#e4e8ed" font-family="monospace" font-size="13" font-weight="650" text-anchor="start" letter-spacing="0">WayVR</text>
+<text x="381" y="216" fill="#e7bf69" font-family="monospace" font-size="10" font-weight="700" text-anchor="end" letter-spacing="0.3">INACTIVE</text>
+<text x="400" y="216" fill="#91a4bb" font-family="monospace" font-size="13" font-weight="400" text-anchor="end" letter-spacing="0">+</text>
+<path d="M16 236H404" fill="none" stroke="#29333c" stroke-width="1"/>
+<text x="24" y="267" fill="#e4e8ed" font-family="monospace" font-size="13" font-weight="650" text-anchor="start" letter-spacing="0">Firewall</text>
+<text x="381" y="267" fill="#fa777c" font-family="monospace" font-size="10" font-weight="700" text-anchor="end" letter-spacing="0.3">PORT BLOCKED</text>
+<text x="400" y="267" fill="#91a4bb" font-family="monospace" font-size="13" font-weight="400" text-anchor="end" letter-spacing="0">+</text>
+<rect x="14" y="310" width="392" height="36" rx="10" fill="#17221f" stroke="#73b981" stroke-width="1"/>
+<text x="210.0" y="332.0" fill="#e4e8ed" font-family="monospace" font-size="11" font-weight="650" text-anchor="middle" letter-spacing="0">Configure software</text>
+</svg>
