@@ -5,14 +5,14 @@
   "version": "0.2.0",
   "author": "i3oot",
   "license": "MIT",
-  "description": "Connect your VR headset and use your Omarchy desktops, workspaces, and apps in VR with WiVRn and WayVR. Follow the guide to install the VR software, pair your headset, and check live connection status. Start or stop WiVRn and WayVR, manage firewall access for private networks, create temporary virtual displays, and move your active workspace between screens. Includes headset app install links and animated headset and controller artwork. Virtual display capture requires compatible WayVR support.",
+  "description": "Take the hassle out of setting up your VR headset on Omarchy. A guided setup brings software installation, headset app links, pairing, and connection checks into one place. Connect your headset and use your Omarchy desktops, workspaces, and apps in VR with WiVRn and WayVR. Start or stop the VR software, manage firewall access for private networks, create temporary virtual displays, and move your active workspace between screens.",
   "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
     "displayName": "VR Control",
-    "description": "Connect your headset and use Omarchy desktops and apps in VR, with guided setup, pairing, connection status, and virtual display controls.",
+    "description": "Take the hassle out of VR headset setup and use Omarchy desktops and apps in VR, with guided installation, pairing, and display controls.",
     "category": "System",
     "aliases": ["vr", "wivrn", "wayvr", "headset"],
     "allowMultiple": false,
