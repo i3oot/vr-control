@@ -43,6 +43,10 @@ with 817 and 736 triangles, made with VTK quadric decimation. The OpenSCAD
 scenes and animated GIFs are derivatives and retain this attribution. The
 panel applies the active Omarchy accent color at runtime.
 
+The README screenshots and root `preview.png` include the bundled icon and
+rendered headset/controller artwork. The same source attributions and CC BY 4.0
+licenses above apply to that artwork in these previews.
+
 ## Setup software
 
 The setup action installs these packages on the host. Package versions are

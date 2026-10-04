@@ -96,6 +96,6 @@ Run the popup lifecycle regression tests with Node.js:
 node tests/panel-lifecycle.test.cjs
 ```
 
-The repository is organized by purpose: `scripts/` contains setup, removal, and firewall controls; `tools/` contains model conversion and GIF builders; `assets/` contains the bundled runtime artwork and source models; and `debug/` contains mock-state screenshot tooling. Regenerate the README mock-state screenshots with `python3 debug/render_guide_screenshots.py`.
+The repository is organized by purpose: `scripts/` contains setup, removal, and firewall controls; `tools/` contains model conversion and GIF builders; `assets/` contains the bundled runtime artwork and source models; and `debug/` contains mock-state screenshot tooling. Regenerate the README mock-state screenshots with `python3 debug/render_guide_screenshots.py`, then build the marketplace's `preview.png` with `python3 tools/build_marketplace_preview.py` (requires `rsvg-convert`).
 
 Regenerate the app's reduced-density wireframes by running `python3 tools/simplify_wireframe_meshes.py`, then `python3 tools/build_headset_gif.py` and `python3 tools/build_controller_gifs.py`. The original full-detail meshes are kept alongside the simplified derivatives. The simplifier needs Python VTK; GIF rendering needs OpenSCAD and FFmpeg. See [third-party notices](THIRD_PARTY_NOTICES.md) for artwork sources and licenses.
