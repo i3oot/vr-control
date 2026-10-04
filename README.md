@@ -40,6 +40,14 @@ Bring Omarchy workspaces and desktop apps into VR. Pair a [**WiVRn**](https://gi
 
 Plugins run unsandboxed inside the Omarchy shell. Review the source before enabling it. The setup action installs software and enables the Avahi system service and WiVRn user service. Firewall changes require an explicit button click and a sudo prompt.
 
+### Firewall permissions
+
+Firewall controls manage UDP 5353 and TCP/UDP 9757 for private LAN ranges. The plugin adds only tagged rules and leaves other firewall rules unchanged.
+
+On the first successful Open or Close firewall action, the plugin creates `/etc/sudoers.d/omarchy-vr-control`. This grants your account passwordless permission only to run `sudo /usr/bin/ufw status numbered`, allowing the panel to read firewall status without repeated password prompts. It does not grant passwordless permission to change firewall rules. Installing or enabling the plugin alone does not create this permission.
+
+If that sudoers file already contains the expected permission, it is kept; otherwise, the plugin replaces it. Component cleanup offers to remove the plugin's firewall rules and this permission. Removing only the plugin does not remove them.
+
 ## Install
 
 Install the plugin with Omarchy:
@@ -61,8 +69,6 @@ Open **VR Control** from the bar. The guide offers PC preparation, headset pairi
 The display controls are on page 3. Added Hyprland headless outputs and workspace moves last for the current Hyprland session.
 
 The setup action installs `wivrn-dashboard`, `wayvr`, and `xrizer` from the AUR, installs [Avahi](https://github.com/avahi/avahi) through Omarchy, then enables Avahi and `wivrn.service`. The AUR install runs in a visible terminal so package prompts can be reviewed.
-
-Firewall controls manage UDP 5353 and TCP/UDP 9757 for private LAN ranges. The plugin adds only tagged rules and leaves other firewall rules unchanged. On the first successful firewall operation, it installs `/etc/sudoers.d/omarchy-vr-control`, granting this user passwordless access only to `ufw status numbered` so the UI can read the live status.
 
 See [third-party notices](THIRD_PARTY_NOTICES.md) for bundled artwork credits, links, and licenses.
 
