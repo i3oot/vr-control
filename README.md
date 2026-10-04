@@ -1,6 +1,6 @@
 # Omarchy VR Control
 
-Bring Omarchy workspaces and desktop apps into VR. Pair a [**WiVRn**](https://github.com/WiVRn/WiVRn) headset, launch and manage [**WayVR**](https://wayvr.org/), check connection status, open the required firewall access, and create extra virtual screens. The plugin focuses on desktop use in VR rather than VR gaming.
+Connect your standalone VR headset to your PC and use your Omarchy desktops, workspaces, and apps in VR. The setup guide helps you install the VR software and pair your headset with [**WiVRn**](https://github.com/WiVRn/WiVRn). Launch [**WayVR**](https://wayvr.org/) to bring your desktop screens into VR, check live connection status, manage firewall access for your private network, and create temporary virtual screens with workspace controls. Virtual screens require compatible capture support in WayVR.
 
 <table>
   <tr>
