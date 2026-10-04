@@ -55,7 +55,7 @@ fi
 
 install_status_permission() {
   local username=${SUDO_USER:-}
-  local ufw_path sudoers_file temporary_file rule
+  local ufw_path temporary_file rule
   if [[ ! $username =~ ^[a-zA-Z0-9_.-]+$ ]]; then
     echo "Could not determine the invoking user for the read-only UFW status permission." >&2
     exit 1
